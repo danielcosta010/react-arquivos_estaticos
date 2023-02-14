@@ -1,26 +1,26 @@
 import React from 'react'
 import styles from './Rodape.module.scss'
-import facebook from '../../assets/icones/facebook.svg'
-import instagram from '../../assets/icones/instagram.svg'
-import twitter from '../../assets/icones/twitter.svg'
+import linkedin from '../../assets/icones/linkedin.svg'
+import github from '../../assets/icones/github.svg'
+import instagram from '../../assets/icones/twitter.svg'
 
 function Rodape() {
   return ( 
     <footer className={styles.rodape}>
       <div className={styles.rodape__icones}>
         <a 
-          href="https://www.facebook.com/AluraCursosOnline/"
+          href="https://www.linkedin.com/in/daniel-costa010"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={facebook} alt="logo facebook" />
+          <img src={linkedin} alt="logo facebook" />
         </a>
         <a 
-          href="https://twitter.com/aluraonline?lang=en"
+          href="https://github.com/danielcosta010"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={twitter} alt="logo twitter" />
+          <img src={github} alt="logo twitter" />
         </a>
         <a 
           href="https://www.instagram.com/aluraonline/?hl=en"
@@ -31,7 +31,7 @@ function Rodape() {
         </a>
 
       </div>
-      <p>Desenvolvido por alura</p>
+      <p>Desenvolvido por Daniel Costa, curso react Alura</p>
     </footer>
   );
 }

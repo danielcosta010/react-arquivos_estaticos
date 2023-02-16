@@ -14,7 +14,7 @@
   box-sizing: border-box;
 
   &__icones {
-    width: 10%;
+    width: 30%;
     display: flex;
     justify-content: space-between;
     cursor: pointer;
@@ -25,4 +25,10 @@
     color: $cor-do-texto;
     font-family: $fonte-normal;
   }
+
+  @media (max-width: 600px) {
+      flex-direction: column;
+      padding: 1rem;
+  }
+
 }

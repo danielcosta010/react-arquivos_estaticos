@@ -1,15 +1,16 @@
 import React from 'react';
 import styles from './Tags.module.scss'
+//import fotos from '../Galeria/fotos.json'
 
-function Tags() {
+function Tags({ tags, filtraFoto, setItens, fotos }) {
   return ( 
     <div className={styles.tags}>
-      <p>Busque por tags:</p>
+      <p>Filtre por tags:</p>
       <ul className={styles.tags__lista}>
-        <li>Estrelas</li>
-        <li>Galáxia</li>
-        <li>Lua</li>
-        <li>Planetas</li>
+        {tags.map(tag => {
+          return <li key={tags} onClick={() => filtraFoto(tag)}>{tag}</li>
+        })}
+        <li onClick={() => setItens(fotos)}>Todas</li>
       </ul>
     </div>
   );

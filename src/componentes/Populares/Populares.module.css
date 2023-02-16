@@ -1,0 +1,26 @@
+.populares {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 800px;
+  color: #7b78e5;
+  font-family: "GandhiSansRegular";
+  font-size: 16px;
+  margin-left: 1rem;
+}
+.populares h2 {
+  margin-top: 5.3rem;
+}
+.populares__imagens {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 77%;
+  padding: 0;
+  list-style: none;
+}
+.populares__imagens img {
+  width: 150px;
+  height: 100px;
+}/*# sourceMappingURL=Populares.module.css.map */

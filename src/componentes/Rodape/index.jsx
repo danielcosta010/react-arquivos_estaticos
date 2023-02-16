@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './Rodape.module.scss'
-import linkedin from '../../assets/icones/linkedin.svg'
-import github from '../../assets/icones/github.svg'
-import instagram from '../../assets/icones/twitter.svg'
+import { ReactComponent as Linkedin} from 'assets/icones/linkedin.svg'
+import { ReactComponent as Github} from 'assets/icones/github.svg'
+import { ReactComponent as Instagram} from 'assets/icones/twitter.svg'
 
 function Rodape() {
   return ( 
@@ -13,21 +13,21 @@ function Rodape() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={linkedin} alt="logo facebook" />
+          <Linkedin />
         </a>
         <a 
           href="https://github.com/danielcosta010"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={github} alt="logo twitter" />
+          <Github />
         </a>
         <a 
           href="https://www.instagram.com/aluraonline/?hl=en"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={instagram} alt="logo instagram" />
+          <Instagram />
         </a>
 
       </div>

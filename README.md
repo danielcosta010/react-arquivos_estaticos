@@ -1,5 +1,5 @@
 # reactJs-lidandoComArquivosEstaticos
- skills absorvidas neste Curso react da Alura:
+ Skills absorvidas neste Curso react da Alura:
  
 * Organizar pastas e arquivos do projeto
 * Implementar componentes da Interface do Usuário
@@ -7,6 +7,8 @@
 * Vantagens de utilizar o CSS modules e o Sass
 * Métodos JavaScript para adicionar funcionalidades a página
 * Deploy da aplicação na Vercel
+
+<a href='https://react-alura-space-kappa.vercel.app/' target='_blank'>Acesse o projeto</a>
 
 <a href='https://react-alura-space-kappa.vercel.app/' target='_blank'><img src='https://github.com/danielcosta010/react-arquivos_estaticos/blob/main/public/assets/imagens/capa-do-projeto.png#vitrinedev' alt='Capa do projeto' style='width: 800px'></a>
  

@@ -8,7 +8,7 @@
 * Métodos JavaScript para adicionar funcionalidades a página
 * Deploy da aplicação na Vercel
 
-<img src='https://github.com/danielcosta010/react-arquivos_estaticos/blob/main/public/assets/imagens/capa-do-projeto.png#vitrinedev' alt='Capa do projeto' style='width: 800px'>
+<a href='https://react-alura-space-kappa.vercel.app/' target='_blank'><img src='https://github.com/danielcosta010/react-arquivos_estaticos/blob/main/public/assets/imagens/capa-do-projeto.png#vitrinedev' alt='Capa do projeto' style='width: 800px'></a>
  
  Este projeto foi inicializado com [Create React App](https://pt-br.reactjs.org/docs/create-a-new-react-app.html).
 
